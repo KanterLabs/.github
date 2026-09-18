@@ -65,10 +65,8 @@ The platform is built around a few operating principles:
 
 | Project | What it is |
 | --- | --- |
-| [Greenlit](https://github.com/KanterLabs/greenlit-app) | A pre-release Rust CLI for running GitHub Actions workflows locally with an emphasis on fidelity, containment, and inspectable evidence. |
-| [Hostlet](https://github.com/KanterLabs/hostlet-core) | An open-source control panel for deploying GitHub-backed web applications on your own server. |
-| [Linkshare](https://github.com/KanterLabs/linkshare) | A lightweight Go service and Codex skill for passing one-time links between a person and coding agents. |
-| [Portfolio](https://github.com/KanterLabs/portfolio) | The source and infrastructure case studies behind Shane's public portfolio. |
+| [Helm](https://github.com/KanterLabs/helm) | An open-source project board and roadmap with scoped agent automation, built for you to run on your own server. |
+| [Portfolio](https://github.com/KanterLabs/portfolio) | The source and infrastructure case studies behind Shane's portfolio, live at [shanekanterman.dev](https://shanekanterman.dev/). |
 
 Projects are at different stages of development. Each repository's README is
 the source of truth for its current status, supported platforms, and usage.
