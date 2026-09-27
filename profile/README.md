@@ -1,6 +1,9 @@
 <div align="center">
 
-# KanterLabs
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KanterLabs/.github/main/assets/brand/kanterlabs-lockup-dark.svg">
+  <img src="https://raw.githubusercontent.com/KanterLabs/.github/main/assets/brand/kanterlabs-lockup-light.svg" alt="KanterLabs: a black English lop rabbit beside the KanterLabs wordmark" width="440">
+</picture>
 
 **Developer tools, self-hosted platforms, and practical software, built with
 the infrastructure to run them.**
