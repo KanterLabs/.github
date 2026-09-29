@@ -88,6 +88,7 @@ git clone https://github.com/KanterLabs/nfl-scores.git && cd nfl-scores && make 
 | Project | What it is | Stack |
 | --- | --- | --- |
 | **[NFL Scores](https://github.com/KanterLabs/nfl-scores)** | Live NFL scores and an animated, drawn-on-the-field gamecast for GNOME Shell. Press <kbd>Super</kbd> + <kbd>F</kbd> and it's there. | GJS · Cairo |
+| **[ActionView](https://github.com/KanterLabs/ActionView)** | Our self-hosted GitHub Actions runners, live in the GNOME top bar: running and queued jobs, capacity, and notifications when a run fails or a job is stuck. | GJS · Cairo |
 | **[Pulse](https://github.com/KanterLabs/pulse)** | A fast GNOME command center for Spotify on Fedora, with a Rust daemon and optional headless playback. *Pre-alpha.* | GJS · Rust · D-Bus |
 | **[ncspot](https://github.com/KanterLabs/ncspot)** | A visually expressive fork of the ncspot terminal Spotify client. | Rust · TUI |
 
@@ -157,6 +158,34 @@ sequenceDiagram
     Pod-->>GH: Report results
     ARC->>Pod: Tear down, nothing persists
 ```
+
+### Watching the fleet: ActionView
+
+<table>
+<tr>
+<td width="46%" valign="top"><a href="https://github.com/KanterLabs/ActionView"><img src="https://raw.githubusercontent.com/KanterLabs/ActionView/main/docs/assets/menu.png" alt="ActionView dropdown in the GNOME top bar: a running job with live timer and CPU/memory, a queued job flagged slower than p95, trend sparklines, runner capacity, and recent runs"></a></td>
+<td valign="top">
+
+**[ActionView](https://github.com/KanterLabs/ActionView)** puts that runner
+fleet in the GNOME top bar. A badge shows what's running and queued, and turns
+red on a failure you haven't seen. When the data is stale or the dashboard is
+unreachable, it says so instead of showing "all quiet".
+
+- Running jobs with live timers, the runner, and CPU and memory.
+- Queued jobs, flagged when they wait longer than that repo's p95.
+- Notifications for failures, stuck queues, and alerts. A failed matrix run
+  is one notification, not six.
+- It is a read-only client of the fleet dashboard, so there are no GitHub or
+  Kubernetes tokens on the desktop.
+
+<img src="https://raw.githubusercontent.com/KanterLabs/ActionView/main/docs/assets/notification.png" alt="GNOME notification: a build queued for 7 minutes with no runner picking it up" width="100%">
+
+Every screenshot is a real render from its CI, which runs a headless
+gnome-shell against sanitized fleet data.
+
+</td>
+</tr>
+</table>
 
 The platform is built around a few operating principles:
 
