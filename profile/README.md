@@ -9,7 +9,6 @@
 the infrastructure to run them.**
 
 [![Website](https://img.shields.io/badge/shanekanterman.dev-visit-111?style=for-the-badge)](https://shanekanterman.dev/)
-[![Hostlet Cloud](https://img.shields.io/badge/hostlet.cloud-visit-5b5bd6?style=for-the-badge)](https://hostlet.cloud)
 
 <img src="https://img.shields.io/badge/Rust-b7410e?style=flat-square&logo=rust&logoColor=white" alt="Rust"> <img src="https://img.shields.io/badge/Go-00add8?style=flat-square&logo=go&logoColor=white" alt="Go"> <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/JavaScript-c9a400?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript"> <img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Svelte-ff3e00?style=flat-square&logo=svelte&logoColor=white" alt="Svelte"><br>
 <img src="https://img.shields.io/badge/Proxmox-e57000?style=flat-square&logo=proxmox&logoColor=white" alt="Proxmox"> <img src="https://img.shields.io/badge/k3s-ffc61c?style=flat-square&logo=k3s&logoColor=white" alt="k3s"> <img src="https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker"> <img src="https://img.shields.io/badge/Caddy-1f88c0?style=flat-square&logo=caddy&logoColor=white" alt="Caddy"> <img src="https://img.shields.io/badge/Cloudflare-f38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare"> <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" alt="Tailscale"> <img src="https://img.shields.io/badge/GitHub_Actions-2088ff?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"> <img src="https://img.shields.io/badge/GNOME-4a86cf?style=flat-square&logo=gnome&logoColor=white" alt="GNOME">
@@ -96,7 +95,7 @@ git clone https://github.com/KanterLabs/nfl-scores.git && cd nfl-scores && make 
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| **[Hostlet Core](https://github.com/KanterLabs/hostlet-core)** | Turn GitHub repositories into live apps on your own Linux server: builds, containers, routing, health checks, and rollback. Powers [hostlet.cloud](https://hostlet.cloud). *Pre-1.0 beta.* | Rust · Next.js |
+| **[Hostlet Core](https://github.com/KanterLabs/hostlet-core)** | Turn GitHub repositories into live apps on your own Linux server: builds, containers, routing, health checks, and rollback. *Pre-1.0 beta.* | Rust · Next.js |
 | **[Helm](https://github.com/KanterLabs/helm)** | An open-source project board and roadmap with scoped agent automation, built for you to run on your own server. | Go · Svelte |
 
 ### Web
